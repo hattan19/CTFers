@@ -1,0 +1,60 @@
+
+/* nvabar */
+.nav-link {
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .nav-link:hover {
+    color: #01C28C !important;
+  }
+  
+  .nav-link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    height: 2px;
+    background-color: #01C28C;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  
+  .nav-link:hover::after {
+    opacity: 1;
+  }
+  
+
+.gradient-custom-3 {
+/* fallback for old browsers */
+background: #84fab0;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+.gradient-custom-4 {
+/* fallback for old browsers */
+background: #84fab0;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgb(134, 255, 178), rgb(35, 178, 255));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgb(66, 229, 172), rgb(75, 195, 255))
+}
+
+.signup-bg {
+    background-color: #fcfcfc;
+    
+}
+
+
+.joinus h1{
+    font-size: 5rem;
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+}
