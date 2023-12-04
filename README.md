@@ -1,6 +1,6 @@
 # CTFers
 
-### A place that hacker love
+### A place that hackers love
 
 # Platform
 
