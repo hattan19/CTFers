@@ -70,3 +70,33 @@ background: linear-gradient(to right, rgb(66, 229, 172), rgb(75, 195, 255))
 .forgetPass{
   margin-bottom: 3rem;
 }
+
+
+
+.hero-section {
+  height: 100vh;
+  background: url('path/to/background-image.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.fade-in {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

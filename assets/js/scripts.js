@@ -52,3 +52,9 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function toggleChallenge(headerElement) {
+    var content = headerElement.nextElementSibling;
+    headerElement.parentElement.classList.toggle('expanded');
+}
+
