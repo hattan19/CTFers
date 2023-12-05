@@ -64,3 +64,9 @@ background: linear-gradient(to right, rgb(66, 229, 172), rgb(75, 195, 255))
   margin-top: 9rem;
   margin-bottom: 9rem;
 }
+
+
+/* not working?  */
+.forgetPass{
+  margin-bottom: 3rem;
+}
