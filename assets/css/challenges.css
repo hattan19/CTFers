@@ -1,0 +1,69 @@
+.challenge-card {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.challenge-card:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.card-header {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header h3 {
+    margin: 0;
+}
+
+.difficulty, .points {
+    background-color: #555;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.card-content {
+    display: none;
+    padding: 10px;
+    background-color: white;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.flag-submission {
+    display: flex;
+}
+
+.flag-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
